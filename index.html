@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body
+    style="
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      height: 100vh;
+    "
+  >
+    <form
+      onsubmit="onSubmit(event)"
+      style="display: flex; flex-direction: row; justify-content: center"
+    >
+      <input
+        autocomplete="off"
+        required
+        style="margin-right: 5px; width: 60px"
+        type="number"
+        name="x"
+        id="x"
+      />
+
+      <select style="margin-bottom: 5px" name="calculation" id="calculation">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="divide">÷</option>
+        <option value="multiply">x</option>
+      </select>
+      <input
+        autocomplete="off"
+        required
+        style="width: 60px; margin: 0px 5px 0px 5px"
+        type="number"
+        name="y"
+        id="y"
+      />
+      <button type="submit" style="width: 40px">=</button>
+      <button
+        class="reset"
+        type="reset"
+        style="width: 40px; margin-left: 5px"
+        onclick="reset()"
+      >
+        AC
+      </button>
+    </form>
+    <p class="output"></p>
+    <script src="./index.js" type="text/javascript"></script>
+  </body>
+</html>
