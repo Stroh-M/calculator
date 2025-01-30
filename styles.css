@@ -25,9 +25,9 @@ input:focus {
     height: 44px;
     border: none;
     background-color: bisque;
-    display: flex;
+/*     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 10px; */
 }
 
 #calculation option{
