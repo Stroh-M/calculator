@@ -17,6 +17,10 @@ input:focus {
     outline: none;
 }
 
+#calculation {
+    height: 40px;
+}
+
 #calculation option{
   width: 40px;
   font-size: 1.2em;
