@@ -17,8 +17,13 @@ input:focus {
     outline: none;
 }
 
+#calculation::-moz-focus-inner {
+    border: 0;
+}
+
 #calculation {
     height: 44px;
+    border: none;
 }
 
 #calculation option{
