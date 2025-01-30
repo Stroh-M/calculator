@@ -26,7 +26,7 @@ input:focus {
     border: none;
     background-color: bisque;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
 }
 
