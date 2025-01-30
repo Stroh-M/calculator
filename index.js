@@ -5,7 +5,7 @@ function add(x, y) {
 
   function subtract(x, y) {
     const total = x - y;
-    return toLocalString(total);
+    return total;
   }
 
   function divide(x, y) {
