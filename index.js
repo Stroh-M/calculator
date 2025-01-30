@@ -4,8 +4,7 @@ function add(x, y) {
   }
 
   function subtract(x, y) {
-    const total = x - y;
-    return total;
+    return x - y;
   }
 
   function divide(x, y) {
