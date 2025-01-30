@@ -24,6 +24,7 @@ input:focus {
 #calculation {
     height: 44px;
     border: none;
+    background-color: bisque;
 }
 
 #calculation option{
