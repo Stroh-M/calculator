@@ -27,13 +27,15 @@ input:focus {
 }
 
 #calculation option{
-  width: 40px;
-  font-size: 1.2em;
-  padding: 10px 0;
-  text-align: center;
-  display: inline-block;
-  cursor: pointer;
-  border:rgb(204, 204, 0) solid 1px;
-  border-radius: 5px;
-  color: rgb(204, 204, 0);
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    font-size: 1.2em;
+    padding: 10px 0;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border:rgb(204, 204, 0) solid 1px;
+    border-radius: 5px;
+    color: rgb(204, 204, 0);
 }
