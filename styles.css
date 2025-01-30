@@ -25,12 +25,12 @@ input:focus {
     height: 44px;
     border: none;
     background-color: bisque;
-}
-
-#calculation option{
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+
+#calculation option{
     width: 40px;
     font-size: 1.2em;
     padding: 10px 0;
